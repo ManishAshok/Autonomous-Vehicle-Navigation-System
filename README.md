@@ -26,8 +26,16 @@
 <p>First, clone this repository to your local machine:</p>
 <pre><code>git clone https://github.com/ManishAshok/autonomous-vehicle-navigation.git
 cd autonomous-vehicle-navigation</code></pre>
+<h3>2. Download Sensor Data Files</h3>
 
-<h3>2. Install Dependencies</h3>
+<p>Download the sensor data files and place them in the project directory:</p>
+<ul>
+    <li><a href="data/gps_data.csv">Download GPS Data (gps_data.csv)</a></li>
+    <li><a href="data/lidar_data.csv">Download LiDAR Data (lidar_data.csv)</a></li>
+    <li><a href="mnt/data/camera_data.txt">Download Camera Data (camera_data.txt)</a></li>
+</ul>
+
+<h3>Install Dependencies</h3>
 <p>Ensure you have Python installed, along with the necessary packages:</p>
 <pre><code>pip install numpy opencv-python</code></pre>
 
